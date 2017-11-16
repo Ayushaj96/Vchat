@@ -44,4 +44,13 @@
         android:paddingRight="20dp"
         android:text="ALREADY HAVE ACCOUNT"
         android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vc"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="91dp" />
 </RelativeLayout>

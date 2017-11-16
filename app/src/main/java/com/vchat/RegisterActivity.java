@@ -2,10 +2,10 @@ package com.vchat;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.View;
@@ -20,8 +20,6 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.iid.FirebaseInstanceId;
-
-import org.w3c.dom.Text;
 
 import java.util.HashMap;
 
@@ -117,7 +115,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                     HashMap<String, String> userMap = new HashMap<>();
                     userMap.put("name", display_name);
-                    userMap.put("status", "Hi there I'm using Lapit Chat App.");
+                    userMap.put("status", "Hi there ");
                     userMap.put("image", "default");
                     userMap.put("thumb_image", "default");
                     userMap.put("device_token", device_token);
